@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	int n, i, max, num;
-	printf("Enter number of elements:");
+	printf("Enterrr number of elements:");
 	scanf("%d", & n);
 	scanf("%d", & max);
 	for(i=1;i<n;i++){
