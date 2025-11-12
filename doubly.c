@@ -68,13 +68,14 @@ void display(){
 }
 int main(){
 	int choice,data;
-	while(1){
+	
 		printf("\n...Doubly linked list menu...\n");
 		printf("1.Insert at Beginning\n");
 		printf("2.Insert at End\n");
 		printf("3.Delete a Node\n");
 		printf("4.Display\n");
 		printf("5.Exit\n");
+while(1){
 		printf("Enter choice:");
 		scanf("%d",&choice);
 		
@@ -98,6 +99,7 @@ int main(){
 			display();
 			break;
 		case 5:
+			printf("Exiting..\n");
 			exit(0);
 		default:
 			printf("Invalid Choice!\n");
